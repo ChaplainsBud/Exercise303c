@@ -17,6 +17,7 @@
     Priority :<input type="text" th:field="*{priority}" />
     <span th:if="${#fields.hasErrors('priority')}"
           th:errors="*{priority}"></span><br />
+    <input type="submit" value="Submit" />
 </form>
 </body>
 </html>
